@@ -1,6 +1,6 @@
 # Overview
 
-# libphonenumber-csharp
+# libphonenumber-dotnet
 
 Cloned from [https://github.com/erezak/libphonenumber-csharp](https://github.com/erezak/libphonenumber-csharp).
 
