@@ -17,27 +17,25 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using NUnit.Framework;
 
 namespace PhoneNumbers.Test
 {
     /**
-    * Root class for PhoneNumberUtil tests that depend on the test metadata file.
+    * Root class for PhoneNumberUtil Tests that depend on the Test metadata file.
     * <p>
-    * Note since tests that extend this class do not use the normal metadata file, they should not be
-    * used for regression test purposes.
+    * Note since Tests that extend this class do not use the normal metadata file, they should not be
+    * used for regression Test purposes.
     *
     * @author Shaopeng Jia
     * @author Lara Rennie
     */
-    class TestMetadataTestCase
+    public class TestMetadataTestCase
     {
-        public const String TEST_META_DATA_FILE_PREFIX = "PhoneNumberMetaDataForTesting.xml";
+        public const String Test_META_DATA_FILE_PREFIX = "PhoneNumberMetaDataForTesting.xml";
 
         protected PhoneNumberUtil phoneUtil;
-
-        [TestFixtureSetUp]
-        public void SetupFixture()
+        
+        public TestMetadataTestCase()
         {
             phoneUtil = InitializePhoneUtilForTesting();
         }
@@ -46,7 +44,7 @@ namespace PhoneNumbers.Test
         {
             PhoneNumberUtil.ResetInstance();
             return PhoneNumberUtil.GetInstance(
-                TEST_META_DATA_FILE_PREFIX,
+                Test_META_DATA_FILE_PREFIX,
                 CountryCodeToRegionCodeMapForTesting.GetCountryCodeToRegionCodeMap());
         }
     }

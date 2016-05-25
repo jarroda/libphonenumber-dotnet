@@ -15,8 +15,6 @@
  */
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace PhoneNumbers.Test
 {
@@ -29,7 +27,7 @@ namespace PhoneNumbers.Test
         internal static Dictionary<int, List<String>> GetCountryCodeToRegionCodeMap()
         {
             return BuildMetadataFromXml.GetCountryCodeToRegionCodeMap(
-                TestMetadataTestCase.TEST_META_DATA_FILE_PREFIX);
+                TestMetadataTestCase.Test_META_DATA_FILE_PREFIX);
         }
     }
 }
