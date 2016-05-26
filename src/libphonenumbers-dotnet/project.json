@@ -1,7 +1,19 @@
 {
   "version": "1.0.0-*",
+  "title": "libphonenumber-dotnet",
+  "description": "A port of Google's libphonenumber for .NET Core",
+  "authors": [ "Jarrod Alexander" ],
+  "packOptions": {
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jarroda/libphonenumber-dotnet"
+    },
+    "tags": [ "phonenumber phone libphonenumber google e164 e.164 international" ],
+    "projectUrl": "https://github.com/jarroda/libphonenumber-dotnet",
+    "licenseUrl": "https://raw.githubusercontent.com/jarroda/libphonenumber-dotnet/master/LICENSE"
+  },
   "dependencies": {
-    
+
   },
   "frameworks": {
     "net45": {
