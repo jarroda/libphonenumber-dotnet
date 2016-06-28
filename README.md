@@ -5,6 +5,7 @@
 Cloned from [https://github.com/erezak/libphonenumber-csharp](https://github.com/erezak/libphonenumber-csharp).
 
 * This library has been ported to `netstandard1.0` for .NET Core compatibility
+* Updated to .NET Core 1.0
 
 # From the original WIKI
 ## Conversion Notes
