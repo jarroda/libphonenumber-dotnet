@@ -12,13 +12,13 @@ Cloned from [https://github.com/erezak/libphonenumber-csharp](https://github.com
 
 C# port of Google's libphonenumber library:
 
-  [[http://code.google.com/p/libphonenumber/]]
+  http://code.google.com/p/libphonenumber/
 
   The code was rewritten from the Java source mostly unchanged, please refer to the original documentation for sample code and API documentation.
 
   The original Apache License 2.0 was preserved.
 
-  See [[https://bitbucket.org/pmezard/libphonenumber-csharp/src/tip/csharp/README.txt|csharp/README.txt]] for details about the port.
+  See [csharp/README.txt](https://bitbucket.org/pmezard/libphonenumber-csharp/src/tip/csharp/README.txt) for details about the port.
 
 ## Features
 
