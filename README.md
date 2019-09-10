@@ -1,3 +1,8 @@
+# Notice
+This repository is no longer manintained.  Please use https://github.com/twcclegg/libphonenumber-csharp
+
+---
+
 # Overview
 
 # libphonenumber-csharp
